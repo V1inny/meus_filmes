@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929528846564",
+    "project_id": "appxfilme",
+    "storage_bucket": "appxfilme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929528846564:android:3be318921a142dcdb434f1",
+        "android_client_info": {
+          "package_name": "com.bunamiranda.meuslivros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTm0w_eGsmt3426EemYouwu-BAOY2J_3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

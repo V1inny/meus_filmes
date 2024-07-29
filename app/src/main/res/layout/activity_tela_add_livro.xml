@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaAddLivro"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADICIONAR"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/edit_Titulo"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Titulo do Filme"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+
+    <EditText
+        android:id="@+id/edit_Genero"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Genero"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+
+    <EditText
+        android:id="@+id/edit_Sinipse"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Sinopse"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:inputType="textLongMessage"
+        android:textColorHint="#FFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_AdicionarLivro"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn1"
+        android:text="Adicionar flime"
+        android:layout_marginTop="25dp"
+        android:textColor="#000"/>
+
+</LinearLayout>
