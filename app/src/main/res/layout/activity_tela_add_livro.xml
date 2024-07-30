@@ -23,7 +23,7 @@
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:hint="Titulo do Filme"
-        android:padding="15dp"
+        android:padding="10dp"
         android:layout_marginTop="15dp"
         android:textColor="#FFF"
         android:textColorHint="#FFF"/>
@@ -33,7 +33,7 @@
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:hint="Genero"
-        android:padding="15dp"
+        android:padding="10dp"
         android:layout_marginTop="15dp"
         android:textColor="#FFF"
         android:textColorHint="#FFF"/>
@@ -43,7 +43,7 @@
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:hint="Sinopse"
-        android:padding="15dp"
+        android:padding="10dp"
         android:layout_marginTop="15dp"
         android:textColor="#fff"
         android:inputType="textLongMessage"

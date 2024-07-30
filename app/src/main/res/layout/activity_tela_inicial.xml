@@ -15,15 +15,15 @@
             android:layout_height="200dp"
             android:src="@drawable/logo3"/>
 
-       <!-- <TextView
+       <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meus Livros"
+            android:text="Movie On"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:textColor="#212121"
+            android:textColor="#fff"
             android:layout_marginBottom="15dp"/>
-         -->
+
 
         <TextView
             android:layout_width="wrap_content"
