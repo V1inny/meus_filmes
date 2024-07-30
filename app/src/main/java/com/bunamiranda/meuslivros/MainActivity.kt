@@ -40,9 +40,9 @@ class MainActivity : AppCompatActivity() {
         val recyclerViewLivros = binding.recyclerViewLivros
         recyclerViewLivros.layoutManager = LinearLayoutManager(this)
         recyclerViewLivros.setHasFixedSize(true)
-        adapterLivros = AdapterLivros(this, listaLivros) { livro ->
+        adapterLivros = AdapterLivros(this, listaLivros) { filmes ->
             val intent = Intent(this, TelaEditarLivro::class.java).apply {
-                putExtra("Filme", livro)
+                putExtra("filmes", filmes)
             }
             startActivity(intent)
         }
